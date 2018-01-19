@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SourceIndexingDemo
 {
-    public class Class1
+    public static class Program
     {
+		public static void Main(string [] args)
+		{
+			Console.WriteLine("Hello there!!");
+		}
     }
 }
