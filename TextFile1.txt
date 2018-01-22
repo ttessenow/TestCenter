@@ -17,3 +17,10 @@ Remote git source information for 1/1 files written to pdb: "C:\Users\tt\Documen
 
 TT@TTwin10 MINGW64 ~/Documents/Visual Studio 2015/Projects/SourceIndexingDemo/packages/GitLink.3.1.0/build (master)
 $ git status
+
+
+set in <PropertyGroup>:
+    <GitLinkEnabled>true</GitLinkEnabled>
+
+
+
