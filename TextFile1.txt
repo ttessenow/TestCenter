@@ -1,0 +1,19 @@
+example for BitBucket URL:
+http://srvnuget.lstelcom.ads:7990/projects/TSC/repos/test/raw/SourceIndexingDemo/Program.cs?at=26639255eca
+
+
+./gitlink --url http://srvnuget.lstelcom.ads:7990/projects/TSC/repos/test/raw 
+
+
+
+TT@TTwin10 MINGW64 ~/Documents/Visual Studio 2015/Projects/SourceIndexingDemo/packages/GitLink.3.1.0/build (master)
+$ ./gitlink --url http://tt@srvnuget.lstelcom.ads:7990/projects/TSC/repos/test/raw "C:\Users\tt\Documents\Visual Studio 2015\Projects\SourceIndexingDemo\SourceIndexingDemo\bin\
+Debug\SourceIndexingDemo.pdb"
+Verifying pdb files
+File "c:\users\tt\documents\visual studio 2015\projects\sourceindexingdemo\sourceindexingdemo\program.cs" missing or changed since the PDB was compiled.
+Using http://tt@srvnuget.lstelcom.ads:7990/projects/TSC/repos/test/raw/26639255eca66feff90e0c928170dcc1e1edd0ec/%var2% for source server URLs.
+Created source server link file, updating pdb file "..\sourceindexingdemo\bin\debug\sourceindexingdemo.pdb"
+Remote git source information for 1/1 files written to pdb: "C:\Users\tt\Documents\Visual Studio 2015\Projects\SourceIndexingDemo\SourceIndexingDemo\bin\Debug\SourceIndexingDemo.pdb"
+
+TT@TTwin10 MINGW64 ~/Documents/Visual Studio 2015/Projects/SourceIndexingDemo/packages/GitLink.3.1.0/build (master)
+$ git status
